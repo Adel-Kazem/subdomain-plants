@@ -37,11 +37,11 @@
         }
     </style>
 </head>
-<body class="font-sans bg-gray-50" x-data="{
+<body class="font-sans bg-gray-50 pt-16" x-data="{
     mobileMenu: false,
     cartOpen: false,
     products: [
-    {
+        {
         id: 1,
         name: 'Monstera Deliciosa',
         price: 49.99,
@@ -71,7 +71,7 @@
         features: ['Humidity loving', 'Pet friendly', 'Indirect light', 'Size: 12-14 inches tall'],
         stock: 6
     }
-],
+    ],
     cart: {
         items: [],
         add(product, quantity = 1) {
@@ -123,7 +123,7 @@
 }">
 
 <!-- Navigation -->
-<nav class="font-sans bg-gray-50 pt-16">
+<nav class="bg-white shadow-md fixed w-full z-50">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="flex justify-between h-16">
             <div class="flex">
