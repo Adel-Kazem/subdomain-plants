@@ -18,23 +18,6 @@ const PRODUCTS = [
     hasVariants: false,
     totalVariantStock: 0,
     lowStockThreshold: 5,
-    features: {
-      material: "Aluminum Alloy + PC",
-      fragrance_capacity: "8mL",
-      rated_power: "10W",
-      battery_capacity: "800mAh",
-      working_time: "3 to 4 Hours",
-      charging_port: "Type-C",
-      input: "5.0V/1A",
-      charging_time: "1.5 Hours",
-      area_coverage: "15m²",
-      atmosphere_lights: true,
-      touch_control: true,
-      "15m__area_coverage": true,
-      "4h_working": true,
-      type_c_charging: true,
-      "0_60_c_temperature": true
-    },
     images: [
       "products_images/GNVLRFRDFBK_Green_Lion_Veloura_Fragrance_Diffuser_1.jpg",
       "products_images/GNVLRFRDFBK_Green_Lion_Veloura_Fragrance_Diffuser_2.jpg"
