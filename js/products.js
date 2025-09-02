@@ -9,8 +9,6 @@ const PRODUCTS = [
     sku: "GNVLRFRDFBK",
     slug: "green-lion-veloura-fragrance-diffuser",
     brand: "Green Lion",
-    rating: 0,
-    reviews_count: 0,
     status: "active",
     isFeatured: false,
     isOnSale: false,
